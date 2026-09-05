@@ -1,0 +1,11 @@
+public class TypeCasting
+{
+    public static void main(String[] args)
+    {
+        double decimalValue = 9.75;
+        int wholeValue = (int) decimalValue; // explicit type cast
+
+        System.out.println("Decimal value: " + decimalValue);
+        System.out.println("Casted integer value: " + wholeValue);
+    }
+}
