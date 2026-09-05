@@ -1,0 +1,13 @@
+import javax.swing.JOptionPane;
+
+public class StringToIntegerDialog
+{
+    public static void main(String[] args)
+    {
+        String input = JOptionPane.showInputDialog("Enter a whole number:");
+        int number = Integer.parseInt(input);
+        int doubled = number * 2;
+
+        JOptionPane.showMessageDialog(null, "Double of your number is: " + doubled);
+    }
+}
