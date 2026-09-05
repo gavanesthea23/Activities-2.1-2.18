@@ -1,0 +1,8 @@
+public class DecimalPlaces
+{
+    public static void main(String[] args)
+    {
+        double price = 125.6789;
+        System.out.printf("Price: %.2f%n", price);
+    }
+}
