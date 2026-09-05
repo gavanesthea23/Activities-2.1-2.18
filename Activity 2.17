@@ -1,0 +1,13 @@
+import javax.swing.JOptionPane;
+
+public class GetInputDialog
+{
+    public static void main(String[] args)
+    {
+        String course = JOptionPane.showInputDialog("Enter your course:");
+        String year = JOptionPane.showInputDialog("Enter your year level:");
+
+        JOptionPane.showMessageDialog(null,
+                "Course: " + course + "\nYear Level: " + year);
+    }
+}
