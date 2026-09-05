@@ -1,0 +1,9 @@
+public class EscapeSequences
+{
+    public static void main(String[] args)
+    {
+        System.out.println("I\nLove\nJava\nProgramming");
+        System.out.println("I\tLove\tJava\tProgramming");
+        System.out.println("She said, \"Java is fun!\"");
+    }
+}
