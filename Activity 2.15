@@ -1,0 +1,8 @@
+public class FieldSize
+{
+    public static void main(String[] args)
+    {
+        int score = 95;
+        System.out.printf("Score: %5d%n", score);
+    }
+}
