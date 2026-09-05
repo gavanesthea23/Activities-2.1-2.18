@@ -1,0 +1,11 @@
+public class NumericTypeConversion
+{
+    public static void main(String[] args)
+    {
+        int wholeNumber = 10;
+        double decimalNumber = 3.5;
+        double result = wholeNumber + decimalNumber; // int implicitly converted to double
+
+        System.out.println("Result: " + result);
+    }
+}
